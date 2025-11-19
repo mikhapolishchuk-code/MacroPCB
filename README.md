@@ -15,7 +15,7 @@ Made the PCB schematic.
 Screenshot of progress:
 <img width="1334" height="884" alt="image" src="https://github.com/user-attachments/assets/ec3ae4b4-0558-4e20-90c2-2a30c9c20298" />
 
-## Pathfinder Session 2 - [1hour 30 minutes]
+## Pathfinder Session 3 - [1hour 30 minutes]
 What i did:
 Designed the pcb and started adding 3d models.
 
@@ -23,3 +23,9 @@ Screenshot of progress:
 <img width="670" height="494" alt="image" src="https://github.com/user-attachments/assets/f1464ea6-7798-4341-90fb-16b4d304cb23" />
 <img width="948" height="699" alt="image" src="https://github.com/user-attachments/assets/16c1effa-3378-43f9-b9cb-6d6e0b70076c" />
 
+## Pathfinder Session 4 [1 hour]
+What i did:
+Started writing the code.
+
+Screenshot of progress:
+<img width="687" height="609" alt="image" src="https://github.com/user-attachments/assets/d6544db2-6f69-444a-8da8-71380142a74e" />
