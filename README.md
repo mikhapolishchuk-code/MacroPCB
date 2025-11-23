@@ -29,3 +29,10 @@ Started writing the code.
 
 Screenshot of progress:
 <img width="687" height="609" alt="image" src="https://github.com/user-attachments/assets/d6544db2-6f69-444a-8da8-71380142a74e" />
+
+## Pathfinder Session 5 [1 hour]
+What i did:
+Finished coding.
+
+Screenshot of progress:
+<img width="834" height="1227" alt="image" src="https://github.com/user-attachments/assets/e1de6582-845c-4f2d-8b87-a58e5c573e1c" />
