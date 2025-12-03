@@ -7,6 +7,8 @@ int LED2 = D4;
 int LED3 = D5;
 
 int currentLED = 0;
+int LEDs [] = {LED1, LED2, LED3};
+int BUTs [] = {BUT1, BUT2, BUT3};
 
 void setup() {
   pinMode(BUT1, INPUT_PULLUP);
@@ -18,51 +20,42 @@ void setup() {
   pinMode(LED3, OUTPUT);
 
   randomSeed(analogRead(26));
-  NewLED();
+ 
 }
 
 void loop() {
-  if (currentLED == 0 && digitalRead(BUT1) == LOW) press();
-  if (currentLED == 1 && digitalRead(BUT2) == LOW) press();
-  if (currentLED == 2 && digitalRead(BUT3) == LOW) press();
+  
+  int startTime = milis();
+  int endTime;
+  int reactionTime;
+
+  randomNum = random(0, 3);
+
+  digitalWrite(LEDs[randomNum], HIGH);
+
+  while (BUTs[randomNum] != LOW)
+  {
+      endTime = millis();
+  }
+  
+  digitalWrite(LEDs[randomNum], LOW);
+  reactionTime = endTime - startTime;
+
+  if (endtime <= 200)
+  {
+    
+  }
+    
+    
+
+  
+  
+  
 }
 
-void NewLED() {
-
-  digitalWrite(LED1, LOW);
-  digitalWrite(LED2, LOW);
-  digitalWrite(LED3, LOW);
-
-  currentLED = random(0, 3);
-
-  if (currentLED == 0 && digitalRead(BUT1) == HIGH) press();
-  if (currentLED == 1 && digitalRead(BUT2) == HIGH) press();
-  if (currentLED == 2 && digitalRead(BUT3) == HIGH) press();
-
-}
-
-void press() {
-
-  if (currentLED == 0) digitalWrite(LED1, LOW);
-  if (currentLED == 1) digitalWrite(LED2, LOW);
-  if (currentLED == 2) digitalWrite(LED3, LOW);
-
-  digitalWrite(LED1, HIGH);
-  digitalWrite(LED2, HIGH);
-  digitalWrite(LED3, HIGH);
-
-  delay(200);
-
-  digitalWrite(LED1, LOW);
-  digitalWrite(LED2, LOW);
-  digitalWrite(LED3, LOW);
-
-  delay(200);
-
-  NewLED();
 
 
-}
+
 
 
 
