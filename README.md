@@ -36,3 +36,11 @@ Finished coding.
 
 Screenshot of progress:
 <img width="834" height="1227" alt="image" src="https://github.com/user-attachments/assets/e1de6582-845c-4f2d-8b87-a58e5c573e1c" />
+
+## Pathfinder Session 6 [20 minutes]
+What i did:
+Simplified and improved the logic in my code.
+
+Screenshot of progress:
+<img width="1680" height="1650" alt="image" src="https://github.com/user-attachments/assets/95e3ef50-7cc9-4b33-8258-24bba9f33312" />
+
